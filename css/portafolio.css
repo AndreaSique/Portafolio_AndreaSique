@@ -1,0 +1,151 @@
+body{
+    font-size: 8px;
+}
+
+/*INICIO DEL PRIMER SECTION*/
+.sectionBanner{
+    width: 100%;
+    height: 30em;
+    background-color: aqua;
+    padding-top: 10em;
+    box-sizing: border-box;
+    background-image: url(../img/fondoTexto.jpg);
+    background-position: center;
+}
+.cajaFrase{
+    width: 80%;
+    height: 10em;
+    margin: auto;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.cajaFrase p{
+    text-align: center;
+    font-size: 7em;
+    color: #ffffff; 
+    font-weight: bolder;
+}
+.segundoMenu{
+    width: 100%;
+    height: 10em;
+    margin-top: 3.5em;
+    position: relative;
+}
+.tituloProyectos{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 4em;
+    left: 12%;
+}
+.tituloProyectos p{
+    font-size: 3.5em;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+}
+.linkProyectos{
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 12%;
+    bottom: 2em;
+}
+.linkProyectos p a{
+    font-size: 2.5em;
+    text-align: end;
+    font-weight: bold;
+    color: #2471A3;
+}
+.linkProyectos p a:hover{
+    color: #154360;
+}
+
+
+/*INICIO DEL SEGUNDO SECTION*/
+.sectionDeProyectos{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-bottom: 10em;
+
+    display: flex;
+    justify-content: space-between; 
+}
+.CajaPrincipal{
+    width: 35em;
+    height: auto;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 0.5em;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(216, 216, 216, 0.75);
+    -moz-box-shadow:    4px 4px 5px 0px rgba(216, 216, 216, 0.75);
+    box-shadow:         4px 4px 5px 0px rgba(216, 216, 216, 0.75);
+}
+.titulo{
+    width: 35em;
+    height: 5em;
+    box-sizing: border-box;
+    padding: 0.5em 1em 0.5em 1.5em;
+}
+.titulo h1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.imgProyecto1{
+    width: 35em;
+    height: 35em;
+    background-image: url(../img/calculadora.PNG);
+    background-size: 40em;
+    background-position: center;
+}
+.imgProyecto2{
+    width: 35em;
+    height: 35em;
+    background-color: indianred;
+}
+.imgProyecto3{
+    width: 35em;
+    height: 35em;
+    background-color: indianred;
+}
+.subtitulo{
+    width: 35em;
+    height: 4em;
+    box-sizing: border-box;
+
+    padding-top: 0.8em;
+}
+.subtitulo p{
+    font-size: 2.5em;
+    font-weight: 200;
+    text-align: center;
+}
+.parrafo{
+    width: 35em;
+    height: 7em;
+    padding: 0em 1.5em 0.5em 1.5em;    
+    box-sizing: border-box;
+}
+.parrafo p{
+    font-size: 1.7em;
+    text-align: justify;
+}
+.botones{
+    width: 100%;
+    height: 5em;
+    box-sizing: border-box;
+}
+.botones input{
+    width: 1.8em;
+    height: 1.8em;
+    
+    border-style: none;
+    margin-left: 1.2em;
+    margin-top: 0.3em;
+    background-color: white;
+}
+.botones input:hover{
+    cursor: pointer;
+}
