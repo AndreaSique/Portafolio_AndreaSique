@@ -1,0 +1,13 @@
+.encabezado{
+    height: 15rem;
+}
+.nav{
+    font-size: 7rem;
+    margin-top: 1rem;
+}
+ul{
+    margin-top: 2rem;
+}
+ul li{
+    font-size: 5.5rem;
+}
