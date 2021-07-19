@@ -10,7 +10,6 @@ html{
     font-size: 62.5%;
 }
 .body{
-    max-width: 100%;
     margin: auto;
 }
 .encabezado{
@@ -81,7 +80,7 @@ li:hover{
     width: 5rem;
     height: 5rem;
     margin-top: 3rem;
-    margin-left: 8.3rem;
+    margin-left: 6rem;
 }
 .footer2{
     width: 100%;
