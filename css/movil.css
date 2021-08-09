@@ -1,14 +1,145 @@
-.encabezado{
-    height: 15rem;
+.body {
+    max-width: 100%;
+    margin: auto;
 }
+
 .nav{
-    font-size: 7rem;
-    margin-top: 1rem;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
 }
 ul{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    right: 1rem;
 }
 ul li{
-    font-size: 5.5rem;
+    padding: 0rem 0.5rem;
+    font-size: 2rem;
 }
 /*INICIO DE SECCION BANNER*/
+.section{
+    height: 60rem;
+}
+.cajaDatos{
+    width: 80%;
+    margin: auto;
+    padding-top: 20rem;
+}
+.nombre{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.info{
+    font-size: 2rem;
+}
+/*INICIO DE SECCIÓN PROGRAMAS*/
+.titulo_cajaPrincipal{
+    margin-top: 6rem;
+}
+.contenedor2{
+    height: 100rem;
+    flex-direction: column;
+}
+.pe_cajaPrincipal{
+    width: 20rem;
+    height: 28rem;
+    margin-top: 1rem;
+}
+.pe_cajaImg{
+    width: 15rem;
+    height: 20rem;
+}
+.pe_cajaTexto{
+    width: 25rem;
+    height: 5rem;
+    margin-top: 21rem;
+    margin-left: -2.5rem;
+}
+.pe_cajaTexto p {
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+}
+/*INICIO BANNER PORTAFOLIO*/
+.cajaFrase p{
+    font-size: 3rem;
+}
+.segundoMenu{
+    margin-top: 8rem;
+    height: 15rem;
+}
+.tituloProyectos{
+    left: 22%;
+}
+.tituloProyectos p{
+    font-size: 4rem;
+}
+.linkProyectos{
+    right: 29%;
+    bottom: 3rem;
+}
+.linkProyectos p a{
+    font-size: 2.3rem;
+}
+/*INICIO DEL PROYECTOS PORTAFOLIO*/
+.sectionDeProyectos{
+    width: 100%;
+    margin-top: 0;
+    flex-direction: column;
+}
+.CajaPrincipal{
+    width: 100%;
+    margin-top: 1rem;
+}
+.titulo{
+    height: 7rem;
+    padding: 1rem 1.5rem;
+}
+.titulo h1{
+    font-size: 3rem;
+}
+.imgProyecto1, .imgProyecto2, .imgProyecto3{
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+}
+.subtitulo{
+    width: 100%;
+    height: auto;
+}
+.subtitulo p{
+    font-size: 3rem;
+}
+.parrafo{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.parrafo p{
+    font-size: 2rem;
+    text-align: center;
+}
+.botones{
+    height: 7rem;
+}
+.botones input{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+}
+/*INICIO DEL FOOTER*/
+.piePagina{
+    height: 25rem;
+}
+.redesSociales{
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    margin-top: 3rem;
+
+    position: relative;
+}
+.redesSociales input{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 3rem;
+}

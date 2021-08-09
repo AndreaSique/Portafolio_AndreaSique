@@ -1,7 +1,6 @@
 body{
     font-size: 8px;
 }
-
 /*INICIO DEL PRIMER SECTION*/
 .sectionBanner{
     width: 100%;
@@ -59,8 +58,6 @@ body{
 .linkProyectos p a:hover{
     color: #154360;
 }
-
-
 /*INICIO DEL SEGUNDO SECTION*/
 .sectionDeProyectos{
     width: 75%;
